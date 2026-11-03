@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+  <head>
+    <title>NetworkSausee</title>
+    <link rel="icon" href="Images/favicon3.ico.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+	</head>
+
+<script>
+  const main = () => {
+    console.log("Some JavaScript Code...");
+  };
+
+  // wait for five-server to connect
+  const five = document.querySelector('[data-id="five-server"]');
+  if (five) five.addEventListener("connected", main);
+  else window.addEventListener("load", main);
+</script>
+<!-- ^^ FiveServer extension for VScode. Helping me visualize where I am actively by highlighting the site. Additionally helps with the "LiveServer" feature by hosting a localserver and helps me see the updates as I make them on the code.-->
+ 
+ <link rel="stylesheet" href="ns.css">
+
+   <body>
+        <h1 class="center-title">Welcome to NetworkSausee - Projects</h1>
+
+    <nav class="main-nav"> 
+			<a href="ns_experience.html">Experience</a>
+			<a href="ns_hobbies.html">Hobbies</a>
+      <a href="index.html">Home</a>
+		</nav>
+  </body>
+
+  
+
+</html>
